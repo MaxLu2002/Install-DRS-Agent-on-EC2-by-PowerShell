@@ -2,4 +2,5 @@
 .terraform*
 *.drawio
 _command.sh
-
+terraform.tfstate.backup
+terraform.tfstate

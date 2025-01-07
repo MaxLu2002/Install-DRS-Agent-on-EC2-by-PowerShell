@@ -1,14 +1,18 @@
-region = "{your-region}"
+# ---------Basic Setting--------
+region = "ap-northeast-2"
 
 tags = {
-  name = "[your-preferred-nametag]"
+  name = "max-test"
 }
 
+# --------- S3 --------
+
 bucket_names = [
-  "{your-bucket-name1}",
-  "{your-bucket-name2}"
+  "max-jdsgoi",
+  "max-ajlkgja"
 ]
 
+# --------- VPC --------
 vpc_cidr = "10.0.0.0/16"
 
 public_subnet_1_cidr  = "10.0.1.0/24"
@@ -16,8 +20,9 @@ public_subnet_2_cidr  = "10.0.3.0/24"
 private_subnet_1_cidr = "10.0.2.0/24"
 private_subnet_2_cidr = "10.0.4.0/24"
 
-EC2_AMI  = "ami-0e18fe6ecdad223e5"
-EC2_size = "t3.micro"
+# --------- ec2 --------
+EC2_AMI  = "ami-05834e674b5546f29"
+EC2_size = "t3.small"
 
 
 # ---------- Adjustable Setting ----------
