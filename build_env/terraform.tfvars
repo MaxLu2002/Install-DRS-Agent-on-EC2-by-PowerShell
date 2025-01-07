@@ -1,15 +1,15 @@
 # ---------Basic Setting--------
-region = "ap-northeast-2"
+region = "{your-preference}"
 
 tags = {
-  name = "max-test"
+  name = "{your-preference}"
 }
 
 # --------- S3 --------
 
 bucket_names = [
-  "max-jdsgoi",
-  "max-ajlkgja"
+  "{your-preference}",
+  "{your-preference}"
 ]
 
 # --------- VPC --------
