@@ -1,6 +1,5 @@
 .terraform/
-terraform*
 .terraform*
 *.drawio
-command.sh
+_command.sh
 
