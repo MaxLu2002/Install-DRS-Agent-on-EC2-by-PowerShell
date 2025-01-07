@@ -27,9 +27,9 @@ Take note of the `Access Key` and `Secret Key` for the new user, as they will be
 
 ### 4. Configure AWS CLI Credentials
 Use the AWS CLI to configure the credentials for your IAM user. Ensure that the correct AWS region is selected.
-ˋˋˋ bash
+```bash
     aws configure
-ˋˋˋ
+```
 
 ### 5. Set Up the Environment Using Terraform
 
@@ -42,9 +42,9 @@ Use the AWS CLI to configure the credentials for your IAM user. Ensure that the 
     - `instance_type` (e.g., `t3.micro`)
 
 3. Run the Terraform commands to initialize and deploy the environment.
-ˋˋˋ bash
+```bash
     terraform init ; terraform validate ; terraform plan ; terraform apply -auto-approve 
-ˋˋˋ
+```
 
 ### 6. Install the DRS Agent
 
